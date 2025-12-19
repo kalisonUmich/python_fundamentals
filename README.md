@@ -23,23 +23,23 @@ It's daunting. I know. Trust me, I'm not writing this for you I'm writing this f
 
    cd ~/path/to/your/file.py
 
-including the ~ in the beginning lets you enter multiple folder names at once. if you accidentally enter the wrong folder using _cd_, you can go back to the previous folder by entering
+   including the ~ in the beginning lets you enter multiple folder names at once. if you accidentally enter the wrong folder using _cd_, you can go back to the previous folder by entering
 
-   cd ..
+      cd ..
 
-If you need to enter a folder name with spaces in it (like the annoying OneDrive folder name with the spaces) you can get around the terminal's complaints by just surrounding the folder name
-in quotes:
+   If you need to enter a folder name with spaces in it (like the annoying OneDrive folder name with the spaces) you can get around the terminal's complaints by just surrounding the folder name
+   in quotes:
 
-   cd "OneDrive - uniquname"
+      cd "OneDrive - uniquname"
 
 5. Once you're in the folder with your file, you can check to see if you're really there by checking the contents of the folder with the _ls_ command. Just enter
 
    ls
 
-That's it. If the file shows up, it's in your current directory. Now that you're there, simply use the _py_ command (from the Python you should already have installed) to run your program.
-Output will show in your terminal. Make sure you saved your file in VS Code wth ctrl + s before running it.
+   That's it. If the file shows up, it's in your current directory. Now that you're there, simply use the _py_ command (from the Python you should already have installed) to run your program.
+   Output will show in your terminal. Make sure you saved your file in VS Code wth ctrl + s before running it.
 
-   py filename.py
+      py filename.py
 
 
 
